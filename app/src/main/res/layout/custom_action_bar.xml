@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"    
+    android:enabled="false"    
+    >
+
+    <ImageView
+        android:id="@+id/action_bar_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/anq_menubar_menu_icon" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:text="Spryfit" />
+    <ImageView
+        android:id="@+id/action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/action_new_schedule"
+        android:layout_marginRight="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/anq_menubar_search_icon"/>
+    
+    <ImageView
+        android:id="@+id/action_new_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/anq_menubar_write_icon"
+         />
+
+</RelativeLayout>

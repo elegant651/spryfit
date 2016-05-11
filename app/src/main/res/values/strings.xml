@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">Spryfit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="confirmation">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading...</string>
+    <string name="error_title">Error!</string>
+    <string name="error_network">네트워크 상황이 원할하지 않으니 잠시후 다시 시도해주시기 바랍니다.</string>
+    <string name="cant_find_loc">위치로부터 주소를 인식할 수 없습니다. 네트워크가 연결되어 있는지 확인해주세요</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>Notification</item>
+    </string-array>
+
+    <string name="aMomentAgo">방금</string>
+    <string name="minutesAgo">분전</string>
+    <string name="hoursAgo">시간전</string>
+    <string name="daysAgo">일전</string>
+    <string name="weeksAgo">주전</string>
+    <string name="oneMonthAgo">한달전</string>
+    <string name="twoMonthAgo">두달전</string>
+    <string name="threeMonthAgo">세달전</string>
+    <string name="longTimeAgo">오래전</string>
+
+    <string name="week_mon"></string>
+    <string name="week_tue"></string>
+    <string name="week_wed"></string>
+    <string name="week_thu"></string>
+    <string name="week_fri"></string>
+    <string name="week_sat"></string>
+    <string name="week_sun"></string>
+
 </resources>
