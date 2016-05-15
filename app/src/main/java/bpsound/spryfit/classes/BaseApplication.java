@@ -51,7 +51,8 @@ public class BaseApplication extends Application{
         return mInstance;
     }
 
-    public RequestQueue getRequestQueue() {
+    public RequestQueue getRequestQueue()
+    {
         if (mRequestQueue == null) {
             mRequestQueue = Volley.newRequestQueue(getApplicationContext());
         }
